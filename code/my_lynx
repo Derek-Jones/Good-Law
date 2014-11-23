@@ -1,0 +1,6 @@
+#
+# my_lynx, 20 Nov 14
+
+lynx_path="~/lynx2-8-8"
+~/lynx2-8-8/lynx -cfg="$lynx_path"/lynx.cfg -lss="$lynx_path"/samples/lynx.lss --dump -stdin
+
